@@ -38,7 +38,7 @@ public class Logon extends Message {
 	}
 
 	public boolean isSetHeartBtInt() {
-		return isSetField();
+		return isSetField(108);
 	}
 
 }

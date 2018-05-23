@@ -275,6 +275,7 @@
       <value enum="7" description="DUPLICATE_VERBALYES"/>
       <value enum="8" description="STALE_ORDER"/>
     </field>
+	<field number="108" name="HeartBtInt" type="INT"/>
 	<field number="109" name="ClientID" type="STRING"/>
 	<field number="110" name="MinQty" type="QTY"/>
 	<field number="111" name="MaxFloor" type="QTY"/>
