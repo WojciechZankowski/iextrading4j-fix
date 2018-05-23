@@ -27,7 +27,7 @@ Library is up to IEX Trading FIX specification version [2.67] - 23.05.2018
 
 IEXTrading4j FIX is an open source IEX Trading QuickFIX FIX dictionary. It will make it easier to connect to IEX FIX connection using QuickFIX libraries.
 
-FIX specification: https://iextrading.com/docs/IEX%20FIX%20Specification.pdf
+FIX specification: [IEX FIX Specification](https://iextrading.com/docs/IEX%20FIX%20Specification.pdf)
 
 ## IEX Trading
 
