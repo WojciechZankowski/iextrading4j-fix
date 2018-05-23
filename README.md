@@ -2,10 +2,32 @@
 
 ## Table of Contents
 
+* [Quick Start](#quick-start)
+* [Description](#description)
 * [IEX Trading](#iex-trading)
 * [Code Generation](#code-generation)
 * [License](#license)
 * [Others](#others)
+
+## Quick Start
+
+Java SE 8 is required to use IEXTrading4j library.
+
+```
+<dependency>
+	<groupId>pl.zankowski</groupId>
+	<artifactId>iextrading4j-fix</artifactId>
+	<version>1.0.0</version>
+</dependency>
+```
+
+Library is up to IEX Trading FIX specification version [2.67] - 23.05.2018 
+
+## Description
+
+IEXTrading4j FIX is an open source IEX Trading QuickFIX FIX dictionary. It will make it easier to connect to IEX FIX connection using QuickFIX libraries.
+
+FIX specification: https://iextrading.com/docs/IEX%20FIX%20Specification.pdf
 
 ## IEX Trading
 
@@ -38,7 +60,7 @@ In each POM file there is already configurated quickfixj-codegenerator plugin. T
         <plugin>
             <groupId>org.quickfixj</groupId>
             <artifactId>quickfixj-codegenerator</artifactId>
-            <version>1.6.3</version>
+            <version>2.0.0</version>
             <configuration>
                 <dictFile>${basedir}/src/main/resources/IB_FIX.xml</dictFile>
                 <outputDirectory>${basedir}/src/main/java/</outputDirectory>
