@@ -9,7 +9,7 @@ jdk:
 - oraclejdk8
 
 script:
-- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
+- mvn clean install
 
 after_success:
 - bash <(curl -s https://codecov.io/bash)
