@@ -1,5 +1,8 @@
 # IEXTrading4j FIX: Open source IEX Trading QuickFIX FIX dictionary
 
+[![Build Status](https://travis-ci.org/WojciechZankowski/iextrading4j-fix.svg?branch=master)](https://travis-ci.org/WojciechZankowski/iextrading4j-fix)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/pl.zankowski/iextrading4j-fix/badge.svg)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22pl.zankowski%22%20AND%20a%3A%22iextrading4j-fix%22)
+
 ## Table of Contents
 
 * [Quick Start](#quick-start)
