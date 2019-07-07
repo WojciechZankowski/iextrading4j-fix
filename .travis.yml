@@ -6,7 +6,7 @@ addons:
     organization: "wojciechzankowski-github"
 
 jdk:
-- oraclejdk8
+- openjdk11
 
 script:
 - mvn clean install
